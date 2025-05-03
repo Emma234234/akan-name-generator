@@ -1,0 +1,59 @@
+	<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* Selector: element */
+    </style>
+    <link rel="stylesheet" href="./w3.css" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <!-- flex shrink -->
+    <!DOCTYPE html>
+    <html>
+      <title>W3.CSS</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css" />
+      <body>
+       <section>
+            <div class="container">
+        <div>
+          <h1>Akan Name Generator </h1>
+          <div>
+            <div class="info">
+                <p>
+                    The Akan Name Generator is a unique tool that helps users discover their Akan names based on their birth details. 
+                    <br>This generator draws inspiration from the rich culture and traditions of the Akan people in Ghana.
+                    <br>You can view your name or day of birth from the table below.
+                </p>
+        </div>
+        <legend>Fill in to generate your Akan name:
+            <hr>
+        </legend>
+         <p>
+              <label>Enter Gender</label>
+              <select required value="male" id="gender_input">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </p>
+            <p>
+              <label>Date Of Birth</label>
+              <input required type="date" id="date_input" />
+            </p>
+          </div>
+          <div>
+            <button onclick="submitForm()">Submit</button>
+          </div>
+         <div>Your Akan name is <b id="akan_name"></b></div>
+         </div>
+        </section>
+        <script src="./script.js"></script>
+      </body>
+    </html>
+  </body>
+</html>

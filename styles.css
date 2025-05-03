@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+  }
+body {
+    background: url(https://www.everwallpaper.co.uk/cdn/shop/products/white-astrology-sun-mural-wallpaper-plain.jpg?v=1739779909);
+      /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    background-blend-mode: multiply;
+    /* width: 100%; */
+    font-family: cursive;
+    text-align: center;
+    color: black;
+}
+.container{
+    background-color: rgba(198, 117, 19, 0.4);
+    opacity: 0.8;
+    display: block;
+    padding: 20px;
+    height: auto;}
+.h1{
+    text-align: center;
+    padding: 15px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+legend {
+    text-align: center;
+    color: lightsalmon;
+}
+
+.info p{
+font-size: larger;
+font-weight: 400;
+}
+.container p{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px 5px;
+    overflow: hidden;
+    word-break: normal;
+}
+label{
+    display: block;
+    color: black;}
+
+input, select {
+        color: rgb(19, 19, 19);
+        font-size: 15px;
+        width: 100%;
+        padding: 12px 20px;
+        margin: 5px 0;
+        display: block;
+        border: none;
+        border-bottom: 1px solid rgb(13, 13, 13);
+        border-radius: 5px;
+        box-sizing: border-box;
+}
+button[onclick='submitForm()']{
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button[onclick='submitForm()']:hover {
+    background-color: red;
+}
+.akan_name{
+    font-size: small;
+    font-weight: 700;
+}
+
+/*style for screens bigger than screens*/
+@media screen and (min-width: 768px){
+    .container{
+      margin: auto;
+      width: 50%;
+    }}
