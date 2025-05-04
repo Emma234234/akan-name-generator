@@ -12,7 +12,9 @@ https://emma234234.github.io/akan-name-generator/
 
 # Languages Used
 HTML
+
 CSS
+
 Javascript
 
 # Contact details 
