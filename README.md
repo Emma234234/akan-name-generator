@@ -7,6 +7,7 @@ A web application that takes a user's birthday and calculates the day of the wee
 Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
 
 # Link to live site
+https://emma234234.github.io/akan-name-generator/
 
 # Languages Used
 HTML
