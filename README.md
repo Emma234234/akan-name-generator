@@ -1,5 +1,6 @@
 # Akan Name Generator
 Application that generates your akan name, 2025
+
 By Emmaculate Mumbua
 
 # Description
